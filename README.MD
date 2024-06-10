@@ -8,31 +8,31 @@ Este repositorio contiene las soluciones a los ejercicios del taller de programa
 Cada ejercicio se encuentra en un archivo separado. A continuación se detalla la ubicación de cada uno de los ejercicios:
 
 1. **Suma de los dígitos de un número**
-   - [`ejercicios/suma_digitos.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/1.Suma_Digitos.c)
+- [`ejercicios/suma_digitos.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/1.Suma_Digitos.c)
 
 2. **Inverso de un número**
-   - [`ejercicios/inverso_numero.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/2.Inverso_Numero.c)
+ - [`ejercicios/inverso_numero.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/2.Inverso_Numero.c)
 
 3. **Potencia mediante sumas sucesivas**
-   - [`ejercicios/potencia_sumas.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/3.Potencia_Sumas_Sucesivas.c)
+ - [`ejercicios/potencia_sumas.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/3.Potencia_Sumas_Sucesivas.c)
 
 4. **Radicación mediante restas sucesivas**
-   - [`ejercicios/radicacion_restas.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/4.Radicaci%C3%B3n_Restas_Sucesivas.c)
+- [`ejercicios/radicacion_restas.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/4.Radicaci%C3%B3n_Restas_Sucesivas.c)
 
 5. **Serie de Fibonacci**
-   - [`ejercicios/serie_fibonacci.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/5.Serie_Fibonacci.c)
+ - [`ejercicios/serie_fibonacci.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/5.Serie_Fibonacci.c)
 
 6. **Factorial de un número**
-   - [`ejercicios/factorial.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/6.Factorial_Un_Numero.c)
+- [`ejercicios/factorial.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/6.Factorial_Un_Numero.c)
 
 7. **Suma de una serie aritmética**
-   - [`ejercicios/suma_aritmetica.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/7.Suma_Serie_Aritmetica.c)
+ - [`ejercicios/suma_aritmetica.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/7.Suma_Serie_Aritmetica.c)
 
 8. **Producto de una serie geométrica**
-   - [`ejercicios/producto_geometrica.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/8.Producto_Serie_Geom%C3%A9trica.c)
+  - [`ejercicios/producto_geometrica.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/8.Producto_Serie_Geom%C3%A9trica.c)
 
 9. **Número de dígitos de un número**
-   - [`ejercicios/numero_digitos.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/9.Numero_Digitos_Numero.c)
+ - [`ejercicios/numero_digitos.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/9.Numero_Digitos_Numero.c)
 
 10. **Verificar si un número es primo**
    - [`ejercicios/verificar_primo.c`](https://github.com/SteevenAA/Manera-Optima-de-for--while-y-do-while/blob/main/ejercicios/10.Verificar_Primo.c)
