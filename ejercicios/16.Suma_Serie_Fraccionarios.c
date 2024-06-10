@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // Entrada y salida de datos
 
 // Función para calcular la suma de la serie fraccionaria
 double suma_fraccionarios(int n) {
@@ -13,11 +13,6 @@ int main() {
     int n;
     printf("Ingrese un número entero positivo: ");
     scanf("%d", &n);
-
-    if (n <= 0) {
-        printf("Por favor, ingrese un número entero positivo.\n");
-        return 1; // Código de error
-    }
 
     double resultado = suma_fraccionarios(n);
     printf("La suma de la serie es: %.6f\n", resultado);

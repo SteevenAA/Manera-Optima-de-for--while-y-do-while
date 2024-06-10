@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // Entrada y salida de datos
 
 // Función que calcula la suma de los dígitos de un número
 int suma_digitos(int numero) {

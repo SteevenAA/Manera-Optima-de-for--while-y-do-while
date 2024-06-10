@@ -1,14 +1,16 @@
-#include <stdio.h>
+#include <stdio.h> // Entrada y salida de datos
 
 // Función para calcular el producto de los primeros n términos de una serie geométrica
 double producto_serie_geometrica(int n, double primer_termino, double razon) {
     double producto = 1.0;
     double termino = primer_termino;
+    int i = 0;
     
-    // Usamos un bucle for para recorrer los primeros n términos
-    for (int i = 0; i < n; i++) {
+    // Usamos un bucle while para recorrer los primeros n términos
+    while (i < n) {
         producto *= termino;
         termino *= razon;
+        i++;
     }
     
     return producto;

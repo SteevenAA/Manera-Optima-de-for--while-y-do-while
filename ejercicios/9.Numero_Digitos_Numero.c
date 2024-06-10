@@ -1,38 +1,21 @@
-#include <stdio.h>
-
-// Función para contar el número de dígitos de un número
-int countDigits(int number) {
-    int count = 0;
-    
-    // Si el número es 0, tiene un dígito
-    if (number == 0) {
-        return 1;
-    }
-    
-    // Convertir número a positivo si es negativo
-    if (number < 0) {
-        number = -number;
-    }
-
-    // Contar los dígitos
-    while (number != 0) {
-        number /= 10;
-        count++;
-    }
-    
-    return count;
-}
+#include <stdio.h> // Entrada y salida de datos
 
 int main() {
-    int number;
+    // Declarar variables
+    int numero, contador = 0;
 
     // Solicitar al usuario que ingrese un número
     printf("Ingrese un número: ");
-    scanf("%d", &number);
+    scanf("%d", &numero);
 
-    // Llamar a la función countDigits y mostrar el resultado
-    int result = countDigits(number);
-    printf("El número de dígitos de %d es: %d\n", number, result);
+    // Contar el número de dígitos
+    while (numero != 0) {
+        numero /= 10; // Dividir el número por 10 para eliminar el último dígito
+        contador++; // Incrementar el contador de dígitos
+    }
+
+    // Imprimir el resultado de número de dígitos
+    printf("El numero tiene %d digitos.\n", contador);
 
     return 0;
 }

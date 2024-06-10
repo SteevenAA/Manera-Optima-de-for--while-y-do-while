@@ -1,25 +1,24 @@
-#include <stdio.h>
-
-// Función para calcular la suma de los cuadrados de los primeros n números naturales
-int suma_cuadrados(int n) {
-    int suma = 0;
-    for (int i = 1; i <= n; i++) {
-        suma += i * i;
-    }
-    return suma;
-}
+#include <stdio.h> // Entrada y salida de datos
 
 int main() {
-    int n;
-    // Pedir al usuario que ingrese un número entero
-    printf("Ingrese un número entero: ");
+    int n, sum = 0;
+
+    // Solicitar al usuario que ingrese un número
+    printf("Ingrese un numero: ");
     scanf("%d", &n);
-    
-    // Calcular la suma de los cuadrados
-    int resultado = suma_cuadrados(n);
-    
-    // Mostrar el resultado
-    printf("La suma de los cuadrados de los primeros %d números naturales es: %d\n", n, resultado);
-    
+
+    // Imprimir la serie de cuadrados y calcular la suma
+    printf("suma = ");
+    for (int i = 1; i <= n; i++) {
+        printf("%d^2", i);
+        sum += i * i;
+        if (i != n) {
+            printf(" + ");
+        }
+    }
+
+    // Imprimir la suma total
+    printf(" = %d\n", sum);
+
     return 0;
 }

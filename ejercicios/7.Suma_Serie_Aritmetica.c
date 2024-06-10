@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // Entrada y salida de datos
 
 // Declaración de la función para calcular la suma de los primeros n términos de una serie aritmética
 int suma_serie_aritmetica(int n);

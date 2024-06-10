@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // Entrada y salida de datos
 
 // Función que calcula la suma de los números pares hasta n
 int sumarNumerosPares(int n) {

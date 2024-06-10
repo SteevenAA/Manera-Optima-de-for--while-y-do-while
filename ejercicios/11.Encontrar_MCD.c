@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // Entrada y salida de datos
 
 // Función para calcular el MCD usando el algoritmo de Euclides
 int calcularMCD(int a, int b) {

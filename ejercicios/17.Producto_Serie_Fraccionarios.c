@@ -1,27 +1,30 @@
-#include <stdio.h>
+#include <stdio.h> // Entrada y salida de datos
 
-// Función para calcular el producto de la serie de fraccionarios
-double calcular_producto(int n) {
-    double producto = 1.0; // Inicializar el producto a 1.0
-    for (int i = 1; i <= n; i++) {
-        producto *= 1.0 / i;
-    }
-    return producto;
-}
-
-// Función principal
 int main() {
+    // Declarar variables
     int n;
-    printf("Introduce el valor de n: ");
+    double prod = 1.0;
+
+    // Solicitar al usuario que ingrese un número
+    printf("Ingrese un numero: ");
     scanf("%d", &n);
 
-    if (n <= 0) {
-        printf("El valor de n debe ser mayor que 0.\n");
-        return 1;
+    // Imprimir la serie y calcular el producto
+    printf("Si n = %d, prod = ", n);
+    for (int i = 1; i <= n; i++) {
+        if (i == 1) {
+            printf("1");
+        } else {
+            printf("1/%d", i);
+        }
+        prod *= 1.0 / i;
+        if (i != n) {
+            printf(" * ");
+        }
     }
 
-    double resultado = calcular_producto(n);
-    printf("El producto de la serie es: %f\n", resultado);
+    // Imprimir el producto total (opcional si solo se necesita la serie)
+    // printf(" = %f\n", producto);
 
     return 0;
 }

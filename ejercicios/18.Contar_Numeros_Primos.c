@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // Entrada y salida de datos
 #include <stdbool.h>
 
 // Función para verificar si un número es primo

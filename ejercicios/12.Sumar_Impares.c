@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // Entrada y salida de datos
 
 // Función para sumar números impares hasta n
 int sumar_impares_hasta(int n) {

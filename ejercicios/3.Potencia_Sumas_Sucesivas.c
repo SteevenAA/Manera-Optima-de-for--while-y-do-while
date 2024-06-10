@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // Entrada y salida de datos
 
 // Función para multiplicar dos números utilizando sumas sucesivas
 int multiplicar(int a, int b) {

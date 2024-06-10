@@ -1,36 +1,30 @@
-#include <stdio.h>
-#include <stdbool.h>
+#include <stdio.h> // Entrada y salida de datos
 
-// Declaración de la función que verifica si un número es primo
-bool esPrimo(int numero);
-
-// Procedimiento principal
 int main() {
-    int numero;
+    int numero, es_primo = 1; // Inicialmente asumimos que el número es primo
 
-    // Solicitamos al usuario que ingrese un número
-    printf("Ingrese un número: ");
+    // Solicitar al usuario que ingrese un número
+    printf("Ingrese un numero: ");
     scanf("%d", &numero);
 
-    // Verificamos si el número es primo
-    if (esPrimo(numero)) {
-        printf("%d es un número primo.\n", numero);
+    // Verificar si el número es primo
+    if (numero <= 1) {
+        es_primo = 0; // Los números menores o iguales a 1 no son primos
     } else {
-        printf("%d no es un número primo.\n", numero);
+        for (int i = 2; i * i <= numero; i++) {
+            if (numero % i == 0) {
+                es_primo = 0; // Si el número es divisible por i, no es primo
+                break;
+            }
+        }
+    }
+
+    // Imprimir el resultado
+    if (es_primo) {
+        printf("%d es primo.\n", numero);
+    } else {
+        printf("%d no es primo.\n", numero);
     }
 
     return 0;
-}
-
-// Definición de la función que verifica si un número es primo
-bool esPrimo(int numero) {
-    if (numero <= 1) {
-        return false;
-    }
-    for (int i = 2; i * i <= numero; i++) {
-        if (numero % i == 0) {
-            return false;
-        }
-    }
-    return true;
 }

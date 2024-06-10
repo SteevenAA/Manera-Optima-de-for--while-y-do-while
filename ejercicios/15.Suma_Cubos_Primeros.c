@@ -1,33 +1,25 @@
-#include <stdio.h>
-
-// Función que calcula el cubo de un número
-int calcular_cubo(int numero) {
-    return numero * numero * numero;
-}
-
-// Función que calcula la suma de los cubos de los primeros n números naturales
-int suma_de_cubos(int n) {
-    int suma = 0;
-
-    for (int i = 1; i <= n; i++) {
-        suma += calcular_cubo(i);
-    }
-
-    return suma;
-}
+#include <stdio.h> // Entrada y salida de datos
 
 int main() {
     int n;
+    long long int suma = 0; // Usamos long long int para manejar números grandes
 
-    // Solicitamos al usuario que ingrese el valor de n
-    printf("Ingrese el valor de n: ");
+    // Solicitar al usuario que ingrese un número
+    printf("Ingrese un numero: ");
     scanf("%d", &n);
 
-    // Calculamos la suma de los cubos
-    int resultado = suma_de_cubos(n);
+    // Imprimir la serie de cubos y calcular la suma
+    printf("Si n = %d, suma = ", n);
+    for (int i = 1; i <= n; i++) {
+        printf("%d^3", i);
+        suma += i * i * i;
+        if (i != n) {
+            printf(" + ");
+        }
+    }
 
-    // Imprimimos el resultado
-    printf("La suma de los cubos de los primeros %d numeros naturales es: %d\n", n, resultado);
+    // Imprimir la suma total
+    printf(" = %lld\n", suma);
 
     return 0;
 }

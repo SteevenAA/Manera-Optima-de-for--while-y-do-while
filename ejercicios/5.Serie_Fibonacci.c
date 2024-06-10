@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // Entrada y salida de datos
 
 // Función que genera y devuelve el n-ésimo número de Fibonacci
 int fibonacci(int n) {
